@@ -1,0 +1,42 @@
+.main-container {
+    color: #039c00;
+    padding-left: 25px;
+}
+
+form {
+    padding-left: 25px !important;
+}
+
+h2 {
+    color: #f40707;
+    font-style: italic;
+    padding-left: 25px;
+
+
+}
+
+p {
+    padding-left: 25px !important;
+}
+
+.save-button {
+    color: #f40707;
+    border-radius: 5px !important;
+    padding: 14px 28px;
+
+}
+
+label {
+    color: #039c00;
+    font-size: large;
+}
+
+
+h1 {
+    font-style: italic;
+}
+
+input {
+    border-radius: 5px !important;
+    padding: 5px;
+}

@@ -1,0 +1,9 @@
+{% extends 'albums/base.html' %}
+
+{% block content %}
+    <h2>The new 🎤 🎧 🎸 🤟</h2>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{form.as_p}}
+        <button type="submit" class="save-button">Save me, please! 🥹🙏</button>
+    </form>
+{% endblock %}
