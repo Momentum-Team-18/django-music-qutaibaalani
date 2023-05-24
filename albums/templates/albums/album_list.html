@@ -3,7 +3,7 @@
     {% block content %}
         {% for album in albums %}
         <article>
-            <h2><a href="{% url 'album_detail' pk=album.pk %}">{{album.title}}</a></h2>
+            <h3><a href="{% url 'album_detail' pk=album.pk %}">{{album.title}}</a></h3>
             <h4>{{album.artist}}</h4>
 
         </article>
